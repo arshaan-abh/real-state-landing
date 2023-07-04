@@ -1,0 +1,41 @@
+html, body, * {
+    direction: rtl;
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.header {
+    padding-bottom: 98px;
+}
+
+.header.active .header-bottom {
+    top: -98px;
+}
+
+.hero-text {
+    border-right: 1px solid;
+    border-left: unset;
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+.property-card .card-item:not(:last-child) {
+    border-left: 1px solid hsla(0, 0%, 0%, 0.2);
+    border-right: unset;
+    padding-left: 15px;
+    padding-right: 0;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.card-footer {
+    padding: 30px;
+}
+
+.logo img {
+    max-height: 58px;
+}
+
+.blog-content {
+    padding-bottom: 25px;
+}
